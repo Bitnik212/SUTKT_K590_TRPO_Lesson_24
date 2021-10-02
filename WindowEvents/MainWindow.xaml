@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WindowEvents"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="События окна" 
+        Height="350" Width="525"
+        Loaded="Window_Loaded"        
+        ContentRendered="Window_ContentRendered"        
+        Activated="Window_Activated"
+        Deactivated="Window_Deactivated"        
+        Closing="Window_Closing"
+        Closed="Window_Closed" 
+        >
     <Grid>
-        
+        <ListBox Name="listBox" />
     </Grid>
 </Window>
