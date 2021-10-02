@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DialogTypes"
         mc:Ignorable="d"
-        Title="DialogTypes" Height="350" Width="525">
+        Title="Модальные и немодальные окна" Height="350" Width="525">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="200*" />
+        </Grid.ColumnDefinitions>
+        <Button Content="Модальное" 
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch" 
+                Margin="2" 
+                Name="button1" 
+                Grid.Column="0" 
+                Click="button1_Click" />
+        <Button Content="Немодальное" 
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch"
+                Margin="2" 
+                Name="button2"  
+                Grid.Column="1" 
+                Click="button2_Click" />
+
     </Grid>
 </Window>
