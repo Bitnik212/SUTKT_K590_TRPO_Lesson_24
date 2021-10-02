@@ -8,6 +8,10 @@
         WindowStartupLocation="CenterScreen"
         Title="Позиционирование окна" Height="350" Width="525">
     <Grid>
-       
+        <Button 
+                Width="150" 
+                Height="22" 
+                Content="Переместить в центр" 
+                Click="button1_Click" />
     </Grid>
 </Window>
