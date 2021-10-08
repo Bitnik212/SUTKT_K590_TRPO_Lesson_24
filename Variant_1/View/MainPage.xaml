@@ -1,0 +1,48 @@
+﻿<Page x:Class="Variant_1.View.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Variant_1.View"
+      xmlns:vm="clr-namespace:Variant_1.ViewModel"
+      mc:Ignorable="d"
+      Title="MainPage" Height="450" Width="800">
+    <StackPanel Margin="10px">
+        <Button
+            Margin="10px"
+            Height="40px"
+            FontSize="18px"
+            Command="{Binding GoTo}"
+            CommandParameter="mean_arephmetic"
+            >Расчет среднего арифметического</Button>
+        <Button
+            Command="{Binding GoTo}"
+            CommandParameter="quadratic_equation"
+            Margin="10px"
+            Height="40px"
+            FontSize="18px"
+            >Решение квадратного управления</Button>
+        <Button
+            Command="{Binding GoTo}"
+            CommandParameter="work_with_lists"
+            Margin="10px"
+            Height="40px"
+            FontSize="18px"
+            >Работа со списками</Button>
+        <Button
+            Command="{Binding GoTo}"
+            CommandParameter="work_with_files"
+            Margin="10px"
+            Height="40px"
+            FontSize="18px"
+            >Работа с файлами</Button>
+        <TextBlock
+            Margin="10px"
+            TextWrapping="Wrap"
+            FontSize="18px"
+            >Разработайте программу, демонстрирующую работу с окнами и переходы между ними. На главном окне расположите 4 кнопки: Расчет среднего арифметического, Решение квадратного управления, Работа со списками, Работа с файлами. По каждой кнопке реализуйте переход на модельное окно с соответствующим функционалом. На всех окнах реализуйте ввод данных с клавиатуры и вывод данных на экран. Так же обеспечьте удобную навигацию по окнам.</TextBlock>
+        <TextBlock
+            Text="{Binding statusValue}"
+            />
+    </StackPanel>
+</Page>
