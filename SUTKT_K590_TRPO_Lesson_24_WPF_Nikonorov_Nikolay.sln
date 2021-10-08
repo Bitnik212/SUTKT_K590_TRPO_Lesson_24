@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowPositionSave", "Windo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variant_1", "Variant_1\Variant_1.csproj", "{420ABBFF-F87C-4493-A234-E41FA13B3AB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variant_2", "Variant_2\Variant_2.csproj", "{64B255C5-B890-4A55-AC0C-D01F69311D47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{420ABBFF-F87C-4493-A234-E41FA13B3AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{420ABBFF-F87C-4493-A234-E41FA13B3AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{420ABBFF-F87C-4493-A234-E41FA13B3AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B255C5-B890-4A55-AC0C-D01F69311D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B255C5-B890-4A55-AC0C-D01F69311D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B255C5-B890-4A55-AC0C-D01F69311D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B255C5-B890-4A55-AC0C-D01F69311D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
