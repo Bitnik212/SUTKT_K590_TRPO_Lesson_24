@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveOpenFileDialogs", "Save
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotRectangularWindow", "NotRectangularWindow\NotRectangularWindow.csproj", "{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlassEffect", "GlassEffect\GlassEffect.csproj", "{7C6094E2-E4DD-4C08-AA0A-677A3E06FD2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6094E2-E4DD-4C08-AA0A-677A3E06FD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6094E2-E4DD-4C08-AA0A-677A3E06FD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6094E2-E4DD-4C08-AA0A-677A3E06FD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6094E2-E4DD-4C08-AA0A-677A3E06FD2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
