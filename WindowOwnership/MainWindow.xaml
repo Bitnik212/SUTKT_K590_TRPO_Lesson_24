@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Create Window" 
+                Name="button1" 
+                Height="23" 
+                Width="102"
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top"
+                Click="button1_Click" />
     </Grid>
 </Window>
