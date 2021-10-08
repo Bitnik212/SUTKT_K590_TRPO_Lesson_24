@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowOwnership", "WindowOw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveOpenFileDialogs", "SaveOpenFileDialogs\SaveOpenFileDialogs.csproj", "{94E60714-9C40-442D-980E-F77457A272C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotRectangularWindow", "NotRectangularWindow\NotRectangularWindow.csproj", "{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{94E60714-9C40-442D-980E-F77457A272C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E60714-9C40-442D-980E-F77457A272C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E60714-9C40-442D-980E-F77457A272C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6EBFFF-343F-4FCC-BB0C-FB2A4AB53848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
