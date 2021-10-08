@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Variant_2"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <StackPanel VerticalAlignment="Center">
+        <Button Content="Добавить изображение" Click="add" Margin="10" Padding="5"/>
+        <Button Content="Просмотреть изображения..." Click="show"  Margin="10" Padding="5"/>
+    </StackPanel>
 </Window>
